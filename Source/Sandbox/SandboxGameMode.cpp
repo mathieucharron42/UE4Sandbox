@@ -17,8 +17,7 @@ ASandboxGameMode::ASandboxGameMode()
 	}
 
 	_dummyComponent = CreateDefaultSubobject<UDummyComponent>(TEXT("DummyComponent"));
-	//_dummyComponent->SetupAttachment(RootComponent);
-
+	
 	_sceneDummyComponent = CreateDefaultSubobject<USceneDummyComponent>(TEXT("SceneDummyComponent"));
 	_sceneDummyComponent->SetupAttachment(RootComponent);
 }
